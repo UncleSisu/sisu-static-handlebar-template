@@ -1,0 +1,25 @@
+---
+layout: layouts/default.hbs
+title: "WUBS Home Page"
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>Home Page</h1>
+
+      <h2>Bootstrap Examples</h2>
+      <ul>
+        <li><a href="examples/reboot">Reboot</a></li>
+        <li><a href="examples/components">Components</a></li>
+      </ul>
+
+      <h2>Example Partial Include</h2>
+      {{> foo first="Steven" last="Waller"}}
+
+      <h2>Example SVG Include</h2>
+      <p>{{> svgs/arrow class="example-arrow-icon"}}</p>
+
+    </div>
+  </div>
+</div>
